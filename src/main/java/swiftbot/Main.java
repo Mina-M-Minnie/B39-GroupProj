@@ -14,6 +14,8 @@ public class Main {
 		boolean running = true;
 
 		while (running) {
+
+			//Print Menu
             System.out.println("\n==============================");
             System.out.println("        SwiftBot Menu         ");
             System.out.println("==============================");
@@ -32,6 +34,7 @@ public class Main {
             String choice = scanner.nextLine().trim();
 
             switch (choice) {
+				// Runs the SpyBot program when option 1 is selected
                 case "1":
                     System.out.println("\nStarting SpyBot...\n");
                     try {
