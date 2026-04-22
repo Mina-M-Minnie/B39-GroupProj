@@ -50,77 +50,84 @@ public class Main {
                     }
                     break;
 
+                // Eman
+				// Runs the Traffic Light program when option 2 is selected
 				case "2":
                     System.out.println("\nStarting Traffic Light...\n");
                     try {
-                        // Eman
-						// Runs the Traffic Light program when option 2 is selected
+                        // Call the Start method for the Traffic Light program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Traffic Light: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
 
+                // Mina
+				// Runs the Snakes and Ladders program when option 3 is selected
 				case "3":
                     System.out.println("\nStarting Snakes and Ladders...\n");
                     try {
-                        // Mina
-						// Runs the Snakes and Ladders program when option 3 is selected
+                        // Call the Start method for the Snakes and Ladders program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Snakes and Ladders: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
 
+                // Aaron
+				// Runs the Search for Light program when option 4 is selected
 				case "4":
                     System.out.println("\nStarting Search for Light...\n");
                     try {
-                        // Aaron
-						// Runs the Search for Light program when option 4 is selected
+                        // Call the Start method for the Search for Light program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Search for Light: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
 
+                // Noor
+				// Runs the Noughts and Crosses program when option 5 is selected
 				case "5":
                     System.out.println("\nStarting Noughts and Crosses...\n");
                     try {
-                        // Noor
-						// Runs the Noughts and Crosses program when option 5 is selected
+                        // Call the Start method for the Noughts and Crosses program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Noughts and Crosses: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
-
+                
+                // Saskia
+				// Runs the Master Mind program when option 6 is selected
 				case "6":
                     System.out.println("\nStarting Master Mind...\n");
                     try {
-                        // Saskia
-						// Runs the Master Mind program when option 6 is selected
+                        // Call the Start method for the Master Mind program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Master Mind: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
 
+                // Arkin
+				// Runs the Draw a Shape program when option 7 is selected
 				case "7":
                     System.out.println("\nStarting Draw a Shape...\n");
                     try {
-                        // Arkin
-						// Runs the Draw a Shape program when option 7 is selected
+                        // Call the Start method for the Draw a Shape program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting Draw a Shape: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
 
+                // Naimul
+				// Runs the ZigZag program when option 8 is selected
 				case "8":
                     System.out.println("\nStarting ZigZag...\n");
                     try {
-                        // Naimul
-						// Runs the ZigZag program when option 8 is selected
+                        // Call the Start method for the ZigZag program when implemented
                     } catch (Exception e) {
                         System.out.println("Error starting ZigZag: " + e.getMessage());
                         e.printStackTrace();
