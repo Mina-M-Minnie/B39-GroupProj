@@ -1,9 +1,10 @@
-package swiftbot;
+package swiftbot.SpyBot;
 
-import swiftbot.SwiftBotAPI;
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 import java.util.Scanner;
+
+import swiftbot.SwiftBotAPI;
 
 
 public class SpyBot {

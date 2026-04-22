@@ -1,4 +1,4 @@
-package swiftbot;
+package swiftbot.SpyBot;
 
 import java.util.HashMap;
 import java.util.Map;

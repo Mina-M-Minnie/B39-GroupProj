@@ -1,4 +1,4 @@
-package swiftbot;
+package swiftbot.SpyBot;
 
 import java.io.FileWriter;
 import java.io.IOException;

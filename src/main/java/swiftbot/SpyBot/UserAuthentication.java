@@ -1,4 +1,4 @@
-package swiftbot;
+package swiftbot.SpyBot;
 
 public class UserAuthentication {
 		

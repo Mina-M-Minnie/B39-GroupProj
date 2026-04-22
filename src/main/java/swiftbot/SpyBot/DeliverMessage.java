@@ -1,6 +1,8 @@
-package swiftbot;
+package swiftbot.SpyBot;
 
 import java.util.Scanner;
+
+import swiftbot.SwiftBotAPI;
 
 public class DeliverMessage {
 

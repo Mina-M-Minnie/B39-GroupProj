@@ -1,4 +1,7 @@
-package swiftbot;
+package swiftbot.SpyBot;
+
+import swiftbot.Button;
+import swiftbot.SwiftBotAPI;
 
 public class ButtonInputHandler {
 

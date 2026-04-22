@@ -2,6 +2,8 @@ package swiftbot;
 
 import java.io.PrintStream;
 
+import swiftbot.SpyBot.SpyBot;
+
 public class Main {
 
 	public static void main(String[] args) throws Exception {
