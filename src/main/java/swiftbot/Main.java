@@ -3,6 +3,7 @@ package swiftbot;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+import swiftbot.SearchForLight.SearchForLight;
 import swiftbot.SpyBot.SpyBot;
 
 public class Main {
@@ -79,7 +80,8 @@ public class Main {
 				case "4":
                     System.out.println("\nStarting Search for Light...\n");
                     try {
-                        // Call the Start method for the Search for Light program when implemented
+                        SearchForLight lightProgram = new SearchForLight();
+                        lightProgram.init();
                     } catch (Exception e) {
                         System.out.println("Error starting Search for Light: " + e.getMessage());
                         e.printStackTrace();
