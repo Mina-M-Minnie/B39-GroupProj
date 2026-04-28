@@ -1,5 +1,5 @@
-package swiftbot.SpyBot;
 
+package SpyBot;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;

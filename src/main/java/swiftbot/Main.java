@@ -48,8 +48,10 @@ public class Main {
                         SpyBot program = new SpyBot();
                         program.start();
                     } catch (Exception e) {
-                        System.out.println("Error starting SpyBot: " + e.getMessage());
-                        e.printStackTrace();
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            e.printStackTrace();
+                        }
                     }
                     break;
 
@@ -60,8 +62,11 @@ public class Main {
                     try {
                         // Call the Start method for the Traffic Light program when implemented
                     } catch (Exception e) {
-                        System.out.println("Error starting Traffic Light: " + e.getMessage());
-                        e.printStackTrace();
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            e.printStackTrace();
+                        }
+
                     }
                     break;
 

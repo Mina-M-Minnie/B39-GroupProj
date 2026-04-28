@@ -1,5 +1,4 @@
-package swiftbot.SpyBot;
-
+package SpyBot;
 import swiftbot.Button;
 import swiftbot.SwiftBotAPI;
 

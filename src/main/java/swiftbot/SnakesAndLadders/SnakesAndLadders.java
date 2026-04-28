@@ -1,4 +1,4 @@
-package swiftbot.SnakesAndLadders;
+package SnakesAndLadders;
 
 import swiftbot.Button;
 import swiftbot.SwiftBotAPI;
@@ -276,7 +276,7 @@ public class SnakesAndLadders {
                                 printSection("GAME ENDED BY PLAYER");
                                 System.out.println("  Thanks for playing, " + username + "!");
                                 sleep(1);
-                                System.exit(0);
+                                throw new RuntimeException("1");
                             }
                             System.out.println("  Continuing the game!\n");
                             sleep(1);
@@ -347,7 +347,7 @@ public class SnakesAndLadders {
                                 printSection("GAME ENDED BY PLAYER");
                                 System.out.println("  Thanks for playing, " + username + "!");
                                 sleep(1);
-                                System.exit(0);
+                                throw new RuntimeException("1");
                             }
                             System.out.println("  Continuing the game!\n");
                             sleep(1);
@@ -488,7 +488,7 @@ public class SnakesAndLadders {
                                 printSection("GAME ENDED BY PLAYER");
                                 System.out.println("  Thanks for playing, " + username + "!");
                                 sleep(1);
-                                System.exit(0);
+                                throw new RuntimeException("1");
                             }
                             System.out.println("  Continuing the game!\n");
                             sleep(1);
@@ -614,7 +614,7 @@ public class SnakesAndLadders {
                                 printSection("GAME ENDED BY PLAYER");
                                 System.out.println("  Thanks for playing, " + username + "!");
                                 sleep(1);
-                                System.exit(0);
+                                throw new RuntimeException("1");
                             }
                             System.out.println("  Continuing the game!\n");
                             sleep(1);

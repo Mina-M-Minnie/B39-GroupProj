@@ -1,4 +1,4 @@
-package swiftbot.SpyBot;
+package SpyBot;
 
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
@@ -440,7 +440,7 @@ public class SpyBot {
 		 swiftBot.disableButtonLights();
 		 swiftBot.stopMove();
 		    
-		System.exit(0);		// Terminates the program
+		throw new RuntimeException("1");		// Terminates the program
 	}
 
 }

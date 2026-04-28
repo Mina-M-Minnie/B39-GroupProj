@@ -1,4 +1,4 @@
-package swiftbot.SearchForLight;
+package SearchForLight;
 import swiftbot.Button;
 import swiftbot.ImageSize;
 import swiftbot.SwiftBotAPI;
@@ -15,6 +15,7 @@ import java.util.Scanner;
 import java.io.FileWriter;
 
 public class SearchForLight {
+    private boolean running = true;
     private SwiftBotAPI swiftBot;
     private BufferedImage swiftCam;
     private boolean begin = false;
@@ -79,7 +80,7 @@ public class SearchForLight {
     }
 
     private void beginSearch() throws Exception {
-        while (true){
+        while (running){
             takeImage();
             imageProcess();
             chooseDirection();
@@ -399,7 +400,7 @@ public class SearchForLight {
                 }
             }
             finalEventLogger();
-            System.exit(0);
+            running = false;
         }
     }
 

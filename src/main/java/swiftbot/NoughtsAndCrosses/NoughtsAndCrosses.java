@@ -1,4 +1,4 @@
-package swiftbot.NoughtsAndCrosses;
+package NoughtsAndCrosses;
 
 import swiftbot.SwiftBotAPI;
 import swiftbot.Button;
