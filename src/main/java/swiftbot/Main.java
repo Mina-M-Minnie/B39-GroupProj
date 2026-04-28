@@ -56,6 +56,8 @@ public class Main {
                     System.out.println("\nStarting Traffic Light...\n");
                     try {
                         // Call the Start method for the Traffic Light program when implemented
+
+
                     } catch (Exception e) {
                         System.out.println("Error starting Traffic Light: " + e.getMessage());
                         e.printStackTrace();
