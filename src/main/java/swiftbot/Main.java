@@ -48,10 +48,12 @@ public class Main {
                         SpyBot program = new SpyBot();
                         program.start();
                     } catch (Exception e) {
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
                         if (!e.getMessage().equals("1")) {
-                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            System.out.println("Error with SpyBot program: " + e.getMessage());
                             e.printStackTrace();
-                        }                    }
+                        }
+                    }
                     break;
 
                 // Eman
@@ -61,10 +63,12 @@ public class Main {
                     try {
                         // Call the Start method for the Traffic Light program when implemented
                     } catch (Exception e) {
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
                         if (!e.getMessage().equals("1")) {
-                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            System.out.println("Error with Traffic Light program: " + e.getMessage());
                             e.printStackTrace();
-                        }                    }
+                        }
+                    }
                     break;
 
                 // Mina
@@ -74,10 +78,12 @@ public class Main {
                     try {
                         SnakesAndLadders.main(null);
                     } catch (Exception e) {
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
                         if (!e.getMessage().equals("1")) {
-                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            System.out.println("Error with Snakes and Ladders program: " + e.getMessage());
                             e.printStackTrace();
-                        }                    }
+                        }
+                    }
                     break;
 
                 // Aaron
@@ -88,8 +94,11 @@ public class Main {
                         SearchForLight lightProgram = new SearchForLight();
                         lightProgram.init();
                     } catch (Exception e) {
-                        System.out.println("Error starting Search for Light: " + e.getMessage());
-                        e.printStackTrace();
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error with Search for Light program: " + e.getMessage());
+                            e.printStackTrace();
+                        }
                     }
                     break;
 
@@ -100,10 +109,12 @@ public class Main {
                     try {
                         NoughtsAndCrosses.main(null);
                     } catch (Exception e) {
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
                         if (!e.getMessage().equals("1")) {
-                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            System.out.println("Error with Noughts and Crosses program: " + e.getMessage());
                             e.printStackTrace();
-                        }                    }
+                        }
+                    }
                     break;
                 
                 // Saskia
@@ -113,8 +124,11 @@ public class Main {
                     try {
                         // Call the Start method for the Master Mind program when implemented
                     } catch (Exception e) {
-                        System.out.println("Error starting Master Mind: " + e.getMessage());
-                        e.printStackTrace();
+                        //uses errors that throw "1" as a replacement for System.exit so it returns to the main menu
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error with Master Mind program: " + e.getMessage());
+                            e.printStackTrace();
+                        }
                     }
                     break;
 
@@ -125,7 +139,7 @@ public class Main {
                     try {
                         // Call the Start method for the Draw a Shape program when implemented
                     } catch (Exception e) {
-                        System.out.println("Error starting Draw a Shape: " + e.getMessage());
+                        System.out.println("Error with Draw a Shape program: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
@@ -137,7 +151,7 @@ public class Main {
                     try {
                         // Call the Start method for the ZigZag program when implemented
                     } catch (Exception e) {
-                        System.out.println("Error starting ZigZag: " + e.getMessage());
+                        System.out.println("Error with ZigZag program: " + e.getMessage());
                         e.printStackTrace();
                     }
                     break;
@@ -159,7 +173,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Invalid option. Please choose 1 or 2.");
+                    System.out.println("Invalid option. Please choose a number from 1 to 10.");
             }
         }
 
