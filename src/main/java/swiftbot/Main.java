@@ -155,6 +155,7 @@ public class Main {
                 case "10":
                     System.out.println("Exiting program...");
                     running = false;
+                    System.exit(0);
                     break;
 
                 default:
