@@ -1,12 +1,12 @@
-package swiftbot;
+
 
 import java.io.PrintStream;
 import java.util.Scanner;
 
-import swiftbot.NoughtsAndCrosses.NoughtsAndCrosses;
-import swiftbot.SearchForLight.SearchForLight;
-import swiftbot.SnakesAndLadders.SnakesAndLadders;
-import swiftbot.SpyBot.SpyBot;
+import NoughtsAndCrosses.NoughtsAndCrosses;
+import SearchForLight.SearchForLight;
+import SnakesAndLadders.SnakesAndLadders;
+import SpyBot.SpyBot;
 
 public class Main {
 
@@ -51,8 +51,7 @@ public class Main {
                         if (!e.getMessage().equals("1")) {
                             System.out.println("Error starting Traffic Light: " + e.getMessage());
                             e.printStackTrace();
-                        }
-                    }
+                        }                    }
                     break;
 
                 // Eman
@@ -65,9 +64,7 @@ public class Main {
                         if (!e.getMessage().equals("1")) {
                             System.out.println("Error starting Traffic Light: " + e.getMessage());
                             e.printStackTrace();
-                        }
-
-                    }
+                        }                    }
                     break;
 
                 // Mina
@@ -77,9 +74,10 @@ public class Main {
                     try {
                         SnakesAndLadders.main(null);
                     } catch (Exception e) {
-                        System.out.println("Error starting Snakes and Ladders: " + e.getMessage());
-                        e.printStackTrace();
-                    }
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            e.printStackTrace();
+                        }                    }
                     break;
 
                 // Aaron
@@ -102,9 +100,10 @@ public class Main {
                     try {
                         NoughtsAndCrosses.main(null);
                     } catch (Exception e) {
-                        System.out.println("Error starting Noughts and Crosses: " + e.getMessage());
-                        e.printStackTrace();
-                    }
+                        if (!e.getMessage().equals("1")) {
+                            System.out.println("Error starting Traffic Light: " + e.getMessage());
+                            e.printStackTrace();
+                        }                    }
                     break;
                 
                 // Saskia
