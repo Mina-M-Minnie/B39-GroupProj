@@ -3,7 +3,9 @@ package swiftbot;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+import swiftbot.NoughtsAndCrosses.NoughtsAndCrosses;
 import swiftbot.SearchForLight.SearchForLight;
+import swiftbot.SnakesAndLadders.SnakesAndLadders;
 import swiftbot.SpyBot.SpyBot;
 
 public class Main {
@@ -68,7 +70,7 @@ public class Main {
 				case "3":
                     System.out.println("\nStarting Snakes and Ladders...\n");
                     try {
-                        // Call the Start method for the Snakes and Ladders program when implemented
+                        SnakesAndLadders.main(null);
                     } catch (Exception e) {
                         System.out.println("Error starting Snakes and Ladders: " + e.getMessage());
                         e.printStackTrace();
@@ -93,7 +95,7 @@ public class Main {
 				case "5":
                     System.out.println("\nStarting Noughts and Crosses...\n");
                     try {
-                        // Call the Start method for the Noughts and Crosses program when implemented
+                        NoughtsAndCrosses.main(null);
                     } catch (Exception e) {
                         System.out.println("Error starting Noughts and Crosses: " + e.getMessage());
                         e.printStackTrace();

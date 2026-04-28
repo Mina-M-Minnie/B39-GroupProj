@@ -1,6 +1,5 @@
 package swiftbot.SnakesAndLadders;
 
-public class SnakesAndLadders {
 import swiftbot.Button;
 import swiftbot.SwiftBotAPI;
 
@@ -12,6 +11,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
+
+public class SnakesAndLadders {
+
 
     // ── Snake data: [head, tail] ─────────────────────────────────────────────
     static int[][] snakeData = {
@@ -818,5 +820,4 @@ import java.util.concurrent.atomic.AtomicReference;
         });
     }
 }
-    
-}
+
